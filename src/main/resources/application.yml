@@ -7,7 +7,7 @@ spring:
     config:
       server:
         git:
-          uri: file:///D:/Bootcamp/config     # ruta al repo GIT local
+          uri: https://github.com/cesarluisromero/config.git     # ruta al repo GIT local
           search-paths: .
           default-label: main                 # si tu rama es main
           clone-on-start: true
